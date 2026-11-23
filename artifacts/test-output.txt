@@ -1,0 +1,33 @@
+?   	gsb/batch45-safety-c-12	[no test files]
+=== RUN   TestExpandAliasRecursesNestedAliases
+--- PASS: TestExpandAliasRecursesNestedAliases (0.00s)
+=== RUN   TestMatchCommandDeniesPrefixOnlyMatch
+--- PASS: TestMatchCommandDeniesPrefixOnlyMatch (0.00s)
+=== RUN   TestMatchCommandAllowsExactPath
+--- PASS: TestMatchCommandAllowsExactPath (0.00s)
+=== RUN   TestMatchArgsDeniesInjectedExtraArgs
+--- PASS: TestMatchArgsDeniesInjectedExtraArgs (0.00s)
+=== RUN   TestExpandGroupRecursesNestedGroups
+--- PASS: TestExpandGroupRecursesNestedGroups (0.00s)
+=== RUN   TestCheckHostDeniesOtherHost
+--- PASS: TestCheckHostDeniesOtherHost (0.00s)
+=== RUN   TestCheckHostAllowsListedHost
+--- PASS: TestCheckHostAllowsListedHost (0.00s)
+=== RUN   TestResolveNoPasswdUsesMatchedRuleOnly
+--- PASS: TestResolveNoPasswdUsesMatchedRuleOnly (0.00s)
+=== RUN   TestResolveRunAsDeniesEmptyList
+--- PASS: TestResolveRunAsDeniesEmptyList (0.00s)
+=== RUN   TestResolveRunAsAllowsExplicitTarget
+--- PASS: TestResolveRunAsAllowsExplicitTarget (0.00s)
+=== RUN   TestValidateIncludeDeniesOutsideRoot
+--- PASS: TestValidateIncludeDeniesOutsideRoot (0.00s)
+=== RUN   TestEvaluateAppliesNegatedRuleLast
+--- PASS: TestEvaluateAppliesNegatedRuleLast (0.00s)
+=== RUN   TestSanitizeCommandRejectsShellMeta
+--- PASS: TestSanitizeCommandRejectsShellMeta (0.00s)
+=== RUN   TestInvalidateCacheClearsEntries
+--- PASS: TestInvalidateCacheClearsEntries (0.00s)
+=== RUN   TestParsePolicyDeniesMalformedInput
+--- PASS: TestParsePolicyDeniesMalformedInput (0.00s)
+PASS
+ok  	gsb/batch45-safety-c-12/tests	0.003s
